@@ -1,0 +1,34 @@
+#top-box{
+  text-align: center;
+  border: 2px solid;
+}
+
+#nav-bar{
+  text-align: left;
+  border: 2px solid;
+}
+
+#outter-box{
+  display: inline;
+  width: 100%;
+}
+
+#left-box {
+  float: left;
+  width: 25%;
+  height: 1000px;
+  text-align: center;
+  border: 2px solid;
+}
+
+#right-box{
+  margin-left: 25%;
+  height: 1000px;
+  text-align: left;
+  border: solid 2px;
+}
+
+footer{
+  text-align: center;
+  border: 2px solid;
+}
