@@ -1,0 +1,44 @@
+body{
+  height: 100%;
+  background-image: url("background2.jpg");
+}
+
+header{
+  height: 25vh;
+  width: 100%;
+  border-bottom: solid 2px;
+  border-color: lawngreen;
+}
+
+nav{
+  height: 50px;
+  width: 100%;
+  border-bottom: solid 2px;
+  border-color: lawngreen;
+  text-align: left;
+  line-height: 50px;
+}
+
+aside{
+  width: 25%;
+  height: 300px;
+  border-right: solid 2px;
+  border-bottom: solid 2px;
+  border-color: lawngreen;
+  float: left;
+}
+
+section{
+  margin-left: 25%;
+  height: 300px;
+  border-bottom: solid 2px;
+  border-color: lawngreen;
+}
+
+footer{
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  border-bottom: solid 2px;
+  border-color: lawngreen;
+}
