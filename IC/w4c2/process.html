@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+  <script>
+    var arguments = location.search;
+    var searchName = "%22=";
+    var searchAddress = "&address=";
+    var searchPhone = "&phone=";
+
+    var namePosition = arguments.search(searchName);
+    var addressPosition = arguments.search(searchAddress);
+    var phonePosition = arguments.search(searchPhone);
+
+    var username = arguments.substring(namePosition + searchName.length, addressPosition);
+    username = username.replace("+"," ");
+    var address = arguments.substring(addressPosition + searchAddress.length, phonePosition);
+    address = address.replace("+"," ");
+    var phone = arguments.substring(phonePosition + searchPhone.length);
+    phone = phone.replace(/\+/g," ")
+    console.log(arguments);
+    console.log(username);
+    console.log(address);
+    console.log(phone);
+  </script>
+</body>
+</html>
