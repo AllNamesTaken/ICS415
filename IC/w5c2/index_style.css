@@ -1,0 +1,31 @@
+body{
+  height: 100%;
+}
+
+header{
+  height: 25vh;
+  text-align: left;
+}
+
+nav{
+  height: 50px;
+}
+
+#sb{
+  text-align: left;
+  border-right: solid 2px;
+  height: 300px;
+}
+
+#mp{
+  text-align: left;
+  height: 300px;
+}
+
+footer{
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  border-bottom: solid 2px;
+  border-top: solid 2px;
+}
